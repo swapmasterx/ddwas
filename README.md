@@ -13,4 +13,4 @@ This is an early prototype of the mod, only including the following:
   -Raw Citrine (can be turned into Citrine via a stonecutter)  
   -Does not generate naturaly or appear in loot tables yet.  
 
--Armor assets are drawn up but not yet implemented into the game.  
+-Crusader armor assets are drawn up but not yet implemented into the game.  
