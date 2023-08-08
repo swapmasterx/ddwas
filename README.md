@@ -1,5 +1,4 @@
-# ddwas
-Darkest Dungeon: Weapons, Armor and Skills
+# Darkest Dungeon: Weapons, Armor and Skills
 
 This is an early prototype of the mod, only including the following:
 -Crusader Swords level 1 through 5 (does not have crafting recipe yet)
