@@ -1,0 +1,31 @@
+{
+  "item.ddwas.raw_citrine": "Raw Citrine",
+  "item.ddwas.citrine": "Citrine",
+  "item.ddwas.battered_longsword": "Battered Longsword",
+  "item.ddwas.longsword": "Longsword",
+  "item.ddwas.questing_longsword": "Questing Longsword",
+  "item.ddwas.greatsword": "Greatsword",
+  "item.ddwas.the_long_crusade": "The Long Crusade",
+  "item.ddwas.battle_heal_banner": "Support Banner",
+
+  "block.ddwas.citrine_block": "Block of Citrine",
+  "block.ddwas.citrine_ore": "Citrine Ore",
+  "block.ddwas.deepslate_citrine_ore": "Deepslate Citrine Ore",
+
+  "itemGroup.ddwas.ddwasmisc": "DDWAS Miscellaneous",
+
+  "spell.ddwas.stunning_blow_lv1.name": "Stunning Blow Rank 1",
+  "spell.ddwas.stunning_blow_lv1.description": "Knock back and stagger an enemy.",
+  "spell.ddwas.stunning_blow_lv2.name": "Stunning Blow Rank 2",
+  "spell.ddwas.stunning_blow_lv2.description": "Knock back and stagger an enemy.",
+  "spell.ddwas.stunning_blow_lv3.name": "Stunning Blow Rank 3",
+  "spell.ddwas.stunning_blow_lv3.description": "Knock back and stagger an enemy.",
+  "spell.ddwas.stunning_blow_lv4.name": "Stunning Blow Rank 4",
+  "spell.ddwas.stunning_blow_lv4.description": "Knock back and stagger an enemy.",
+  "spell.ddwas.stunning_blow_lv5.name": "Stunning Blow Rank 5",
+  "spell.ddwas.stunning_blow_lv5.description": "Knock back and stagger an enemy.",
+  "spell.ddwas.battle_heal_lv3.name": "Battle Heal Rank 3",
+  "spell.ddwas.battle_heal_lv3.description": "Heal an ally for 5 hp.",
+
+  "ddwas.stunning_blow_impact": "Stunning Blow Hit"
+}

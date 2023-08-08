@@ -1,0 +1,6 @@
+{
+  "parent": "ddwas:item/template_claymore_simply_swords",
+  "textures": {
+    "layer0": "ddwas:item/greatsword"
+  }
+}

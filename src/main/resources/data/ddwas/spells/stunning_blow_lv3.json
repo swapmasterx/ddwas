@@ -1,0 +1,78 @@
+{
+  "school": "LIGHTNING",
+  "range": 2.85,
+  "learn": {
+    "tier": 1
+  },
+  "cast": {
+    "duration": 0.9,
+    "animation": "spell_engine:one_handed_projectile_charge",
+    "sound": {
+      "id": "spell_engine:generic_arcane_casting",
+      "randomness": 0
+    },
+    "particles": [
+      {
+        "particle_id": "minecraft:crit",
+        "shape": "PIPE",
+        "origin": "FEET",
+        "count": 1.0,
+        "min_speed": 0.05,
+        "max_speed": 0.1
+      }
+    ]
+  },
+  "release": {
+    "target": {
+      "type": "CURSOR",
+      "cursor": { }
+    },
+    "animation": "bettercombat:two_handed_slam",
+    "sound": {
+      "id": "bettercombat:claymore_slam",
+      "volume": 0.5,
+      "pitch": 0.9
+    }
+  },
+  "impact": [
+    {
+      "action": {
+        "type": "DAMAGE",
+        "damage": {
+          "knockback": 3,
+          "spell_power_coefficient": 4
+        }
+      },
+      "particles": [
+        {
+          "particle_id": "minecraft:crit",
+          "shape": "SPHERE",
+          "origin": "CENTER",
+          "count": 40,
+          "min_speed": 0.2,
+          "max_speed": 0.7
+        }
+      ],
+      "sound": {
+        "id": "ddwas:stunning_blow_impact",
+        "volume": 0.6
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "apply_mode": "ADD",
+          "duration": 5,
+          "amplifier": 5,
+          "effect_id": "minecraft:slowness"
+        },
+        "apply_to_caster": false
+      }
+    }
+  ],
+  "cost": {
+    "cooldown_duration": 14,
+    "durability": 0
+  }
+}

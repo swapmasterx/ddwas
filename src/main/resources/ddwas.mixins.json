@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.izzy.ddwas.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
