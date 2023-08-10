@@ -1,0 +1,67 @@
+{
+  "school": "HEALING",
+  "range": 29,
+  "learn": {
+    "tier": 1
+  },
+  "cast": {
+    "duration": 0.01,
+    "animation": "spell_engine:one_handed_area_charge",
+    "sound": {
+      "id": "spell_engine:generic_healing_casting",
+      "volume": 0.8,
+      "pitch": 1,
+      "randomness": 0
+    },
+    "particles": [
+      {
+        "particle_id": "minecraft:happy_villager",
+        "shape": "PIPE",
+        "origin": "FEET",
+        "count": 0.0,
+        "min_speed": 0.05,
+        "max_speed": 0.1
+      }
+    ]
+  },
+  "release": {
+    "target": {
+      "type": "CURSOR",
+      "cursor": { }
+    },
+    "animation": "spell_engine:one_handed_area_release",
+    "sound": {
+      "id": "ddwas:battle_heal_success",
+      "volume": 1,
+      "pitch": 1
+    }
+  },
+  "impact": [
+    {
+      "action": {
+        "type": "HEAL",
+        "heal": {
+          "spell_power_coefficient": 5
+        }
+      },
+      "particles": [
+        {
+          "particle_id": "minecraft:wax_off",
+          "shape": "SPHERE",
+          "origin": "CENTER",
+          "count": 40,
+          "min_speed": 8,
+          "max_speed": 10
+        }
+      ],
+      "sound": {
+        "id": "spell_engine:generic_healing_impact_1",
+        "volume": 0.2
+      }
+    }
+  ],
+  "cost": {
+    "cooldown_duration": 18,
+    "durability": 0
+  }
+}

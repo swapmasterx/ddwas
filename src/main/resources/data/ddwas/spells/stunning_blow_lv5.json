@@ -9,6 +9,8 @@
     "animation": "spell_engine:one_handed_projectile_charge",
     "sound": {
       "id": "spell_engine:generic_arcane_casting",
+      "volume": 1.2,
+      "pitch": 1,
       "randomness": 0
     },
     "particles": [
@@ -30,7 +32,7 @@
     "animation": "bettercombat:two_handed_slam",
     "sound": {
       "id": "bettercombat:claymore_slam",
-      "volume": 0.5,
+      "volume": 0,
       "pitch": 0.9
     }
   },
@@ -55,14 +57,14 @@
       ],
       "sound": {
         "id": "ddwas:stunning_blow_impact",
-        "volume": 0.6
+        "volume": 1.5
       }
     },
     {
       "action": {
         "type": "STATUS_EFFECT",
         "status_effect": {
-          "apply_mode": "ADD",
+          "apply_mode": "SET",
           "duration": 6,
           "amplifier": 7,
           "effect_id": "minecraft:slowness"

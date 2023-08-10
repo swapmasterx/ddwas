@@ -1,18 +1,56 @@
 {
   "item.ddwas.raw_citrine": "Raw Citrine",
   "item.ddwas.citrine": "Citrine",
+
   "item.ddwas.battered_longsword": "Battered Longsword",
   "item.ddwas.longsword": "Longsword",
   "item.ddwas.questing_longsword": "Questing Longsword",
   "item.ddwas.greatsword": "Greatsword",
-  "item.ddwas.the_long_crusade": "The Long Crusade",
-  "item.ddwas.battle_heal_banner": "Support Banner",
+  "item.ddwas.the_long_crusade": "§6§o§lThe Long Crusade",
+
+  "item.ddwas.battle_heal_banner_lv1": "Burned Support Banner",
+  "item.ddwas.battle_heal_banner_lv2": "Worn Support Banner",
+  "item.ddwas.battle_heal_banner_lv3": "Patched Support Banner",
+  "item.ddwas.battle_heal_banner_lv4": "Support Banner",
+  "item.ddwas.battle_heal_banner_lv5": "§6§o§lGrace",
+
+  "item.ddwas.inspiring_cry_banner_lv1": "Plain Rally Banner",
+  "item.ddwas.inspiring_cry_banner_lv2": "Iconed Rally Banner",
+  "item.ddwas.inspiring_cry_banner_lv3": "Rally Banner",
+  "item.ddwas.inspiring_cry_banner_lv4": "Emboldened Rally Banner",
+  "item.ddwas.inspiring_cry_banner_lv5": "§6§o§lInspiring Insignia",
+
+  "item.ddwas.cr_a1_h": "Rusty Hauberk Helmet",
+  "item.ddwas.cr_a1_c": "Rusty Hauberk Chestplate",
+  "item.ddwas.cr_a1_l": "Rusty Hauberk Leggings",
+  "item.ddwas.cr_a1_b": "Rusty Hauberk Boots",
+
+  "item.ddwas.cr_a2_h": "Hauberk Helmet",
+  "item.ddwas.cr_a2_c": "Hauberk Chestplate",
+  "item.ddwas.cr_a2_l": "Hauberk Leggings",
+  "item.ddwas.cr_a2_b": "Hauberk Boots",
+
+  "item.ddwas.cr_a3_h": "Plate Helmet",
+  "item.ddwas.cr_a3_c": "Plate Chestplate",
+  "item.ddwas.cr_a3_l": "Plate Leggings",
+  "item.ddwas.cr_a3_b": "Plate Boots",
+
+  "item.ddwas.cr_a4_h": "Refined Plate Helmet",
+  "item.ddwas.cr_a4_c": "Refined Plate Chestplate",
+  "item.ddwas.cr_a4_l": "Refined Plate Leggings",
+  "item.ddwas.cr_a4_b": "Refined Plate Boots",
+
+  "item.ddwas.cr_a5_h": "§6§o§lZealous Conviction Helmet",
+  "item.ddwas.cr_a5_c": "§6§o§lZealous Conviction Chestplate",
+  "item.ddwas.cr_a5_l": "§6§o§lZealous Conviction Leggings",
+  "item.ddwas.cr_a5_b": "§6§o§lZealous Conviction Boots",
+
 
   "block.ddwas.citrine_block": "Block of Citrine",
   "block.ddwas.citrine_ore": "Citrine Ore",
   "block.ddwas.deepslate_citrine_ore": "Deepslate Citrine Ore",
 
-  "itemGroup.ddwas.ddwasmisc": "DDWAS Miscellaneous",
+  "itemGroup.ddwas.ddwasmisc": "DD:WAS",
 
   "spell.ddwas.stunning_blow_lv1.name": "Stunning Blow Rank 1",
   "spell.ddwas.stunning_blow_lv1.description": "Knock back and stagger an enemy.",
@@ -24,8 +62,30 @@
   "spell.ddwas.stunning_blow_lv4.description": "Knock back and stagger an enemy.",
   "spell.ddwas.stunning_blow_lv5.name": "Stunning Blow Rank 5",
   "spell.ddwas.stunning_blow_lv5.description": "Knock back and stagger an enemy.",
+
+  "spell.ddwas.battle_heal_lv1.name": "Battle Heal Rank 1",
+  "spell.ddwas.battle_heal_lv1.description": "Heal an ally for 5 hp.",
+  "spell.ddwas.battle_heal_lv2.name": "Battle Heal Rank 2",
+  "spell.ddwas.battle_heal_lv2.description": "Heal an ally for 5 hp.",
   "spell.ddwas.battle_heal_lv3.name": "Battle Heal Rank 3",
   "spell.ddwas.battle_heal_lv3.description": "Heal an ally for 5 hp.",
+  "spell.ddwas.battle_heal_lv4.name": "Battle Heal Rank 4",
+  "spell.ddwas.battle_heal_lv4.description": "Heal an ally for 5 hp.",
+  "spell.ddwas.battle_heal_lv5.name": "Battle Heal Rank 5",
+  "spell.ddwas.battle_heal_lv5.description": "Heal an ally for 5 hp.",
 
-  "ddwas.stunning_blow_impact": "Stunning Blow Hit"
+  "spell.ddwas.inspiring_cry_lv1.name": "Inspiring Cry Rank 1",
+  "spell.ddwas.inspiring_cry_lv1.description": "Grants you and allies around you speed and haste for 11 seconds.",
+  "spell.ddwas.inspiring_cry_lv2.name": "Inspiring Cry Rank 2",
+  "spell.ddwas.inspiring_cry_lv2.description": "Grants you and allies around you speed and haste for 12 seconds.",
+  "spell.ddwas.inspiring_cry_lv3.name": "Inspiring Cry Rank 3",
+  "spell.ddwas.inspiring_cry_lv3.description": "Grants you and allies around you speed and haste for 13 seconds.",
+  "spell.ddwas.inspiring_cry_lv4.name": "Inspiring Cry Rank 4",
+  "spell.ddwas.inspiring_cry_lv4.description": "Grants you and allies around you speed and haste for 14 seconds.",
+  "spell.ddwas.inspiring_cry_lv5.name": "Inspiring Cry Rank 5",
+  "spell.ddwas.inspiring_cry_lv5.description": "Grants you and allies around you speed and haste for 15 seconds.",
+
+  "ddwas.stunning_blow_impact": "Stunning Blow Hit",
+  "ddwas.battle_heal_success": "Crusader Heal",
+  "ddwas.inspiring_cry": "Crusader Rally"
 }
