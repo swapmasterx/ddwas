@@ -4,5 +4,17 @@
     "sounds": [
       "ddwas:stunning_blow_impact"
     ]
+  },
+  "inspiring_cry": {
+    "subtitle": "ddwas.inspiring_cry",
+    "sounds": [
+      "ddwas:inspiring_cry"
+    ]
+  },
+  "battle_heal_success": {
+    "subtitle": "ddwas.battle_heal_success",
+    "sounds": [
+      "ddwas:battle_heal_success"
+    ]
   }
 }

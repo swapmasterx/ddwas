@@ -1,0 +1,113 @@
+{
+  "range": 10.0,
+  "school": "LIGHTNING",
+  "learn": {
+    "tier": 1
+  },
+  "cast": {
+    "duration": 1,
+    "animation": "spell_engine:one_handed_area_charge",
+    "sound": {
+      "id": "spell_engine:generic_healing_casting",
+      "randomness": 0
+    },
+    "particles": [
+      {
+        "particle_id": "spell_engine:holy_ascend",
+        "shape": "PIPE",
+        "origin": "FEET",
+        "count": 1.0,
+        "min_speed": 0.05,
+        "max_speed": 0.1
+      }
+    ]
+  },
+  "release": {
+    "target": {
+      "type": "AREA",
+      "area": {
+        "vertical_range_multiplier": 0.6,
+        "include_caster": true
+      }
+    },
+    "animation": "spell_engine:one_handed_area_release",
+    "sound": {
+      "id": "ddwas:inspiring_cry",
+      "volume": 0.8,
+      "pitch": 1,
+      "randomness": 0
+    },
+    "particles": [
+      {
+        "particle_id": "minecraft:end_rod",
+        "shape": "CIRCLE",
+        "origin": "CENTER",
+        "count": 130.0,
+        "min_speed": 0.85,
+        "max_speed": 0.85
+      },
+      {
+        "particle_id": "spell_engine:holy_spell",
+        "shape": "PILLAR",
+        "origin": "FEET",
+        "count": 50.0,
+        "min_speed": 0.1,
+        "max_speed": 3,
+        "extent": 7.5
+      },
+      {
+        "particle_id": "spell_engine:holy_spark_mini",
+        "shape": "PILLAR",
+        "origin": "FEET",
+        "count": 70.0,
+        "min_speed": 0.1,
+        "max_speed": 0.2,
+        "extent": 7.5
+      }
+    ]
+  },
+  "impact": [
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "minecraft:speed",
+          "duration": 13,
+          "apply_mode": "SET",
+          "amplifier": 0,
+          "amplifier_power_multiplier": 0.25,
+          "show_particles": true
+        }
+      },
+      "particles": [
+        {
+          "particle_id": "minecraft:wax_on",
+          "shape": "PILLAR",
+          "origin": "FEET",
+          "count": 15,
+          "min_speed": 7,
+          "max_speed": 9
+        }
+      ],
+      "sound": {
+        "id": "spell_engine:generic_healing_impact_2"
+      }
+    },
+    {
+      "action": {
+        "type": "STATUS_EFFECT",
+        "status_effect": {
+          "effect_id": "minecraft:haste",
+          "duration": 13,
+          "apply_mode": "SET",
+          "amplifier": 0,
+          "amplifier_power_multiplier": 0.25,
+          "show_particles": true
+        }
+      }
+    }
+  ],
+  "cost": {
+    "cooldown_duration": 40
+  }
+}
